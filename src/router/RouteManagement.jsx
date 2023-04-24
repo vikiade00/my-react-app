@@ -4,8 +4,8 @@ import LayoutComponent from "../component/layout/LayoutComponent";
 import HomePage from "../pages/homePage/HomePage";
 import CreateProduct from "../pages/createProduct/CreateProduct";
 import CreateAccount from "../pages/createAccount/CreateAccount";
-import LoginPage from "../pages/loginPage/LoginPage";
 import LoadingComponent from "../component/loadingComponent/LoadingComponent";
+import LoginPage from "./../pages/LoginPage/LoginPage";
 
 const RouteManagement = () => {
   const token = localStorage.getItem("token");
